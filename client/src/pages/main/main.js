@@ -1,6 +1,11 @@
 import React from "react";
 import "../home/home.css";
 import "./main.css";
+import { AiFillHome } from "react-icons/ai";
+import { FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import Footer from "../../components/footer/footer";
+
 
 export default function Main() {
   return (
@@ -34,7 +39,7 @@ export default function Main() {
         </div>
 
         <div className="row">
-          <div
+          <Link to="/Results"
             className="font detect poster"
             style={{
               textDecoration: "none",
@@ -57,9 +62,9 @@ export default function Main() {
               Detect number of people around me{" "}
             </div>
             <div>&#10043; </div>
-          </div>
+          </Link>
 
-          <div
+          <Link to="/Results"
             className="font detect2 poster"
             style={{
               textDecoration: "none",
@@ -82,8 +87,8 @@ export default function Main() {
               Detect number of people less than 6 feet{" "}
             </div>
             <div>&#10043; </div>
-          </div>
-          <div
+          </Link>
+          <Link to="/Results"
             className="font detect3 poster"
             style={{
               textDecoration: "none",
@@ -104,8 +109,8 @@ export default function Main() {
             {" "}
             <div style={{ height: "90px" }}>Detect objects around me </div>
             <div>&#10043; </div>
-          </div>
-          <div
+          </Link>
+          <Link to="/Results"
             className="font detect4 poster"
             style={{
               textDecoration: "none",
@@ -126,8 +131,8 @@ export default function Main() {
             {" "}
             <div style={{ height: "60px" }}>Find an object </div>
             <div>&#10043; </div>
-          </div>
-          <div
+          </Link>
+          <Link to="/Results"
             className="font detect5 poster"
             style={{
               textDecoration: "none",
@@ -157,8 +162,8 @@ export default function Main() {
               Read text around me{" "}
             </div>{" "}
             <div>&#10043; </div>
-          </div>
-          <div
+          </Link>
+          <Link to="/Results"
             className="font detect6 poster"
             style={{
               textDecoration: "none",
@@ -181,9 +186,10 @@ export default function Main() {
               Road recognition for navigation
             </div>
             <div>&#10043; </div>
-          </div>
+          </Link>
         </div>
       </div>
+      <Footer/>
     </React.Fragment>
   );
 }

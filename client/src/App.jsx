@@ -6,6 +6,8 @@ import Home from "./pages/home/home";
 import Login from "./pages/login/login";
 import Main from "./pages/main/main";
 import "./App.css";
+import Profile from "./pages/profile/profile";
+import Results from "./pages/results/results";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route exact strict path="/Create" component={Create} />
           <Route exact strict path="/Login" component={Login} />
           <Route exact strict path="/Main" component={Main} />
+          <Route exact strict path="/Profile" component={Profile}/>
+          <Route exact strict path="/Results" component={Results}/>
           <Route component={F4f} />
         </Switch>
       </Router>

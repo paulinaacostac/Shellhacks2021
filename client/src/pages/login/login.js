@@ -42,10 +42,12 @@ export default function Login() {
             Login
           </button>
         </Link>
+        <Link to="/Create">
         <button className="button2" style={{ textDecoration: "underline" }}>
           {" "}
           Create an account
         </button>
+        </Link>
       </div>
     </React.Fragment>
   );

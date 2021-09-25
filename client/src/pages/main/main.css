@@ -54,7 +54,3 @@
     padding-right: 20px;
     font-family: 'Roboto', sans-serif;
 }
-
-.poster:hover {
-    transform: scale(1.08);
-}
