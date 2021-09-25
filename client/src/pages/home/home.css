@@ -13,15 +13,13 @@
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: .3s;
     border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
+    letter-spacing: 1px;
     white-space: normal;
     font-weight: 700;
     text-align: center;
-    padding: 16px 14px 18px;
+    padding: 12px 50px;
     color: #fff;
     background-color: #15883e;
-    height: 48px;
 }
 
 .button:hover {
@@ -38,7 +36,7 @@
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: .3s;
     border: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     min-width: 160px;
     font-weight: 700;
     text-align: center;

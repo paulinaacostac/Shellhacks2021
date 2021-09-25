@@ -6,16 +6,57 @@ export default function Create() {
 
   return (
     <React.Fragment>
-      <div>Create an account</div>
-      <input type="text" placeholder="Full name"/>
-      <input type="text" placeholder="Email adress"/>
-      <input type="text" placeholder="Password"/>
-
-      <button onClick={() => handleCreate()}>Create account</button>
-
-      <Link to="/Login">
-        <button>Already have an account</button>
+      <Link to="" style={{ textDecoration: "none", margin:"5px" }}>
+        {" "}
+        &#10094;{" "}
       </Link>
+      <div style={{ textAlign: "center" }} className="font">
+        <div style={{ fontSize: "20px", margin: "40px", fontWeight: "600" }}>
+          Create an account
+        </div>
+        <input
+          type="text"
+          style={{
+            borderRadius: "10px",
+            border: "1px solid gray",
+            padding: "8px 9px",
+          }}
+          placeholder="Full name"
+        />
+        <input
+          style={{
+            margin: "20px",
+            borderRadius: "10px",
+            border: "1px solid gray",
+            padding: "8px 9px",
+          }}
+          type="text"
+          placeholder="Email adress"
+        />
+        <input
+          style={{
+            marginBottom: "30px",
+            borderRadius: "10px",
+            border: "1px solid gray",
+            padding: "8px 9px",
+          }}
+          type="text"
+          placeholder="Password"
+        />
+
+        <button className="button" onClick={() => handleCreate()}>
+          Create account
+        </button>
+
+        <Link to="/Login">
+          <button
+            className="button2"
+            style={{ margin: "20px", textDecoration: "underline" }}
+          >
+            Already have an account?
+          </button>
+        </Link>
+      </div>
     </React.Fragment>
   );
 }
