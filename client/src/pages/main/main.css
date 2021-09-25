@@ -1,0 +1,60 @@
+.video {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(43deg, rgba(34, 193, 195, 1) 0%, rgba(45, 253, 130, 1) 100%);
+}
+
+.detect {
+    background: rgb(253, 169, 29);
+    background: linear-gradient(43deg, rgba(253, 169, 29, 1) 0%, rgba(252, 242, 69, 1) 100%);
+}
+
+.detect2 {
+    background: rgb(234,253,29);
+    background: linear-gradient(19deg, rgba(234,253,29,1) 0%, rgba(255,64,0,1) 100%);}
+
+.detect3 {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(218deg, rgba(63, 94, 251, 1) 10%, rgba(252, 70, 107, 1) 100%);
+}
+
+.detect4 {
+    background: rgb(154, 63, 251);
+    background: linear-gradient(137deg, rgba(154, 63, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.detect5 {
+    background: rgb(235, 251, 63);
+    background: linear-gradient(38deg, rgba(235, 251, 63, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.detect6 {
+    background: rgb(211, 63, 251);
+    background: linear-gradient(142deg, rgba(211, 63, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.poster {
+    object-fit: contain;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    text-decoration: none;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.row {
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    /* Firefox */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.poster:hover {
+    transform: scale(1.08);
+}

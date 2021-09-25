@@ -10,7 +10,10 @@ export default function Login() {
         &#10094;{" "}
       </Link>
       <div style={{ margin: "auto", textAlign: "center" }}>
-        <div className="font" style={{ margin: "20px", fontSize: "20px", fontWeight:"600" }}>
+        <div
+          className="font"
+          style={{ margin: "20px", fontSize: "20px", fontWeight: "600" }}
+        >
           Login
         </div>
 
@@ -34,10 +37,11 @@ export default function Login() {
           }}
           placeholder="Password"
         />
-
-        <button style={{ margin: "20px 20px" }} className="button">
-          Login
-        </button>
+        <Link to="/Main">
+          <button style={{ margin: "20px 20px" }} className="button">
+            Login
+          </button>
+        </Link>
         <button className="button2" style={{ textDecoration: "underline" }}>
           {" "}
           Create an account
