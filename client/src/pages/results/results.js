@@ -13,7 +13,7 @@ export default function Results() {
       <div className="font" style={{textAlign:"center", fontWeight: "600", padding:"40px"}}>Detect number of people around me </div>
       <div className="font" style={{ fontSize: "20px", fontWeight: "600" }}>
         <div style={{marginLeft:"16px", marginBottom:"11px"}}>There are: </div>
-        <Card text="4" />
+        <Card text="3" />
         <div style={{marginLeft:"16px", marginTop:"11px"}}>people around you</div>
       </div>
     </React.Fragment>

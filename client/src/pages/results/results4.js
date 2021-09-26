@@ -17,9 +17,8 @@ export default function Results4(){
         <div className="font" style={{ fontSize: "20px", fontWeight: "600" }}>
           <div style={{marginLeft:"16px", marginBottom:"11px"}}>The object requested is: </div>
           <Card text="Phone" />
-          <div style={{marginLeft:"16px", marginTop:"11px"}}>objects around you</div>
           <div style={{marginLeft:"16px", marginTop:"11px", marginBottom:"10px"}}>Distance to this object:</div>
-          <Card text="70 inches away left" font={20}/>
+          <Card text="70 inches away to the left" font={20}/>
         </div>
       </React.Fragment>
   
