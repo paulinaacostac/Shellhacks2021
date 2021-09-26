@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useReactMediaRecorder } from "react-media-recorder";
 import { render } from "react-dom";
 import VideoRecorder from "react-video-recorder";
+import "../home/home.css";
 
 export default function Video(props) {
   const { status, startRecording, stopRecording, mediaBlobUrl } =
@@ -42,13 +43,26 @@ export default function Video(props) {
         {" "}
         &#10094;{" "}
       </Link>
-      <VideoRecorder
-        onRecordingComplete={(videoBlob) => {
-          handleBlob(videoBlob);
-          console.log("videoBlob", videoBlob);
+      <div style={{ marginTop: "20px" }}>
+        <VideoRecorder
+          onRecordingComplete={(videoBlob) => {
+            handleBlob(videoBlob);
+            console.log("videoBlob", videoBlob);
+          }}
+        />
+      </div>
+
+      <div
+        style={{
+          margin: "20px auto",
+          display: "flex",
+          justifyContent: "center",
         }}
-      />
-      <button onClick={() => handleSubmit()}>Submit</button>
+      >
+        <button className="button" onClick={() => handleSubmit()}>
+          Submit
+        </button>
+      </div>
     </div>
   );
 }
