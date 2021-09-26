@@ -9,6 +9,10 @@ import "./App.css";
 import Profile from "./pages/profile/profile";
 import Results from "./pages/results/results";
 import Video from "./pages/video/video";
+import Results2 from "./pages/results/results2";
+import Results3 from "./pages/results/results3";
+import Results4 from "./pages/results/results4";
+import Results5 from "./pages/results/results5";
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route exact strict path="/Profile" component={Profile}/>
           <Route exact strict path="/Results" component={Results}/>
           <Route exact strict path='/Video' component={Video}/>
+          <Route exact strict path='/Results2' component={Results2}/>
+          <Route exact strict path='/Results3' component={Results3}/>
+          <Route exact strict path='/Results4' component={Results4}/>
+          <Route exact strict path='/Results5' component={Results5}/>
           <Route component={F4f} />
         </Switch>
       </Router>

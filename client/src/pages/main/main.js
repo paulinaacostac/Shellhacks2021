@@ -67,7 +67,7 @@ export default function Main() {
           </Link>
 
           <Link
-            to="/Results"
+            to="/Results2"
             className="font detect2 poster"
             style={{
               textDecoration: "none",
@@ -92,7 +92,7 @@ export default function Main() {
             <div>&#10043; </div>
           </Link>
           <Link
-            to="/Results"
+            to="/Results3"
             className="font detect3 poster"
             style={{
               textDecoration: "none",
@@ -115,7 +115,7 @@ export default function Main() {
             <div>&#10043; </div>
           </Link>
           <Link
-            to="/Results"
+            to="/Results4"
             className="font detect4 poster"
             style={{
               textDecoration: "none",
@@ -138,7 +138,7 @@ export default function Main() {
             <div>&#10043; </div>
           </Link>
           <Link
-            to="/Results"
+            to="/Results5"
             className="font detect5 poster"
             style={{
               textDecoration: "none",
