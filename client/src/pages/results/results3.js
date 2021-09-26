@@ -20,7 +20,7 @@ export default function Results3() {
         <div style={{ marginLeft: "16px", marginBottom: "11px" }}>
           There are:{" "}
         </div>
-        <Card text="4" />
+        <Card text="5" />
         <div style={{ marginLeft: "16px", marginTop: "11px" }}>
           objects around you.
         </div>
