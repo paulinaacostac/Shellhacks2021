@@ -8,6 +8,7 @@ import Main from "./pages/main/main";
 import "./App.css";
 import Profile from "./pages/profile/profile";
 import Results from "./pages/results/results";
+import Video from "./pages/video/video";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact strict path="/Main" component={Main} />
           <Route exact strict path="/Profile" component={Profile}/>
           <Route exact strict path="/Results" component={Results}/>
+          <Route exact strict path='/Video' component={Video}/>
           <Route component={F4f} />
         </Switch>
       </Router>

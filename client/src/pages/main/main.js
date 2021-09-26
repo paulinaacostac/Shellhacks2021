@@ -6,7 +6,6 @@ import { FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 
-
 export default function Main() {
   return (
     <React.Fragment>
@@ -17,29 +16,32 @@ export default function Main() {
         >
           Welcome
         </div>
-        <button
-          className="font video"
-          style={{
-            textDecoration: "none",
-            minWidth: "270px",
-            border: "none",
-            padding: "35px 25px",
-            backgroundColor: "green",
-            borderRadius: "15px",
-            color: "white",
-            fontSize: "20px",
-            fontWeight: "600",
-            letterSpacing: "1px",
-          }}
-        >
-          Livestream Video &#9887;
-        </button>
+        <Link to="/Video">
+          <button
+            className="font video"
+            style={{
+              textDecoration: "none",
+              minWidth: "270px",
+              border: "none",
+              padding: "35px 25px",
+              backgroundColor: "green",
+              borderRadius: "15px",
+              color: "white",
+              fontSize: "20px",
+              fontWeight: "600",
+              letterSpacing: "1px",
+            }}
+          >
+            Livestream Video &#9887;
+          </button>
+        </Link>
         <div className="font" style={{ fontWeight: "600", margin: "20px" }}>
           Activities
         </div>
 
         <div className="row">
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect poster"
             style={{
               textDecoration: "none",
@@ -64,7 +66,8 @@ export default function Main() {
             <div>&#10043; </div>
           </Link>
 
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect2 poster"
             style={{
               textDecoration: "none",
@@ -88,7 +91,8 @@ export default function Main() {
             </div>
             <div>&#10043; </div>
           </Link>
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect3 poster"
             style={{
               textDecoration: "none",
@@ -110,7 +114,8 @@ export default function Main() {
             <div style={{ height: "90px" }}>Detect objects around me </div>
             <div>&#10043; </div>
           </Link>
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect4 poster"
             style={{
               textDecoration: "none",
@@ -132,7 +137,8 @@ export default function Main() {
             <div style={{ height: "60px" }}>Find an object </div>
             <div>&#10043; </div>
           </Link>
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect5 poster"
             style={{
               textDecoration: "none",
@@ -163,7 +169,8 @@ export default function Main() {
             </div>{" "}
             <div>&#10043; </div>
           </Link>
-          <Link to="/Results"
+          <Link
+            to="/Results"
             className="font detect6 poster"
             style={{
               textDecoration: "none",
@@ -189,7 +196,7 @@ export default function Main() {
           </Link>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </React.Fragment>
   );
 }
